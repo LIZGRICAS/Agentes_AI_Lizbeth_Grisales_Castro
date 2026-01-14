@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-rose: #D93654;
+  --brand-orange: #E99A3A;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #F3F4F6;
+  color: #111827;
+}
+
+.bg-brand-gradient {
+  background: linear-gradient(135deg, var(--brand-rose) 0%, var(--brand-orange) 100%);
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, var(--brand-rose) 0%, var(--brand-orange) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar para el chat */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 54, 84, 0.2);
+}
