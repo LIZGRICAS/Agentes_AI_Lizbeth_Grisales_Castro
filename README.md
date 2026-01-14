@@ -66,7 +66,7 @@ my-app/
 
 Si despliegas en Netlify, pega aquí el enlace de la URL de producción para que quede referenciado:
 
-**Netlify URL:** <poner_aqui_el_link_de_Netlify>
+**Netlify URL:** [<poner_aqui_el_link_de_Netlify>](https://assitsaifunnelhot.netlify.app/)
 
 Ejemplo:
 
