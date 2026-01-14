@@ -8,7 +8,9 @@ import { Button } from '../../../components/ui/Button';
 import { ChatSimulator } from '../../../components/ChatSimulator';
 
 export default function TrainingPage() {
-  const { id } = useParams<{ id: string }>();
+  const params = useParams();
+  const rawId = params?.id;
+  const id = Array.isArray(rawId) ? rawId[0] : (rawId ?? '');
   const navigate = useRouter();
   const { data: assistant, isLoading } = useAssistant(id || '');
   const saveRulesMutation = useSaveRules();
