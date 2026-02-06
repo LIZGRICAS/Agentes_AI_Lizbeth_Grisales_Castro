@@ -1,4 +1,4 @@
-# 🚀 Funnelhot AI Forge - Gestión de Asistentes (Next.js Edition)
+# 🚀 Agentes AI  - Gestión de Asistentes (Next.js Edition)
 
 Este proyecto es un Dashboard de Alta Gama diseñado para la creación, entrenamiento y gestión de asistentes de IA personalizados. Ha sido evolucionado a una arquitectura de **Senior Frontend Engineering** utilizando **Next.js 15**, **React 19** y **Zustand 5**, priorizando la robustez, la estética y una experiencia de usuario (UX) de "Cero Latencia".
 
