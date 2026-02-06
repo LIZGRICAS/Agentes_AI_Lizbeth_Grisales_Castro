@@ -15,7 +15,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                   <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71L12 2z" />
                 </svg>
                 <span className="text-xl md:text-2xl font-extrabold text-white tracking-tight">
-                  funnel<span className="text-brand-rose">hot</span>
+                  Agentes<span className="text-brand-rose">AI</span>
                 </span>
               </div>
             </Link>
@@ -37,10 +37,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <footer className="bg-white border-t border-gray-100 py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-1.5 opacity-50 grayscale">
-            <span className="text-xl font-bold text-gray-900 tracking-tight">funnelhot</span>
+            <span className="text-xl font-bold text-gray-900 tracking-tight">LizCreative</span>
           </div>
           <p className="text-gray-400 text-xs md:text-sm text-center md:text-left">
-            © 2024 Funnelhot AI Forge - Transformando vídeos en ventas.
+            © 2024 Lizbeth Grisales Castro - Arquitecta de sueños digitales.
           </p>
           <div className="flex gap-4">
             <div className="w-8 h-8 rounded-full bg-gray-50 border border-gray-100"></div>
